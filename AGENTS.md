@@ -124,3 +124,11 @@ SemVer `MAJOR.MINOR.PATCH`. Release cycle: alpha → beta → stable.
 - Test changes locally with `bun start` before proposing.
 - No emojis in technical markdown documents.
 - No automatic commits. Present changes for review first.
+
+
+---
+
+## Temporary Files
+
+- `tmp/` is gitignored. Store one-off scripts and throwaway files there.
+- Delete after use. Never commit anything from `tmp/`.
