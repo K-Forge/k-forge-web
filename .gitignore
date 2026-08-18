@@ -277,3 +277,6 @@ local.properties
 *.rar
 *.sqlite
 *.db
+
+# Temp scripts
+tmp/
